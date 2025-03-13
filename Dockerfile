@@ -1,4 +1,4 @@
-FROM python:3.10-slim-buster 
+FROM python:3.10-slim-bullseye
 
 # Update package lists and install dependencies with cleanup in one layer
 RUN apt-get update && \
