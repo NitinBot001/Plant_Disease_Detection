@@ -1,4 +1,4 @@
-FROM python:3.7-slim-buster  # Changed from stretch to buster
+FROM python:3.7-slim-buster 
 
 # Update package lists and install dependencies with cleanup in one layer
 RUN apt-get update && \
